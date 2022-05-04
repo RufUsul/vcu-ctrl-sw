@@ -534,8 +534,8 @@ void AL_Settings_SetDefaults(AL_TEncSettings* pSettings)
   pSettings->eEnableFillerData = AL_FILLER_ENC;
   pSettings->eAspectRatio = AL_ASPECT_RATIO_AUTO;
   pSettings->eColourDescription = AL_COLOUR_DESC_BT_709;
-  pSettings->eTransferCharacteristics = AL_TRANSFER_CHARAC_UNSPECIFIED;
-  pSettings->eColourMatrixCoeffs = AL_COLOUR_MAT_COEFF_UNSPECIFIED;
+  pSettings->eTransferCharacteristics = AL_TRANSFER_CHARAC_IEC_61966_2_1;
+  pSettings->eColourMatrixCoeffs = AL_COLOUR_MAT_COEFF_BT_709;
 
   pSettings->eQpCtrlMode = AL_QP_CTRL_NONE;
   pSettings->eQpTableMode = AL_QP_TABLE_NONE;
